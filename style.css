@@ -1,0 +1,129 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+a {text-decoration: none;
+color: white;}
+.header {display: flex;
+    flex-direction: row;
+  background-color: #1f2937;
+padding-left: 130px;
+padding-right: 130px;}
+
+    .logo {align-self: center;
+    color: white;
+  font-size: 24px;
+font-weight: 400;}
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    gap: 20px;
+    font-size: 18px;
+      }
+
+.body1 {display: flex;
+flex-direction: row;
+gap: 25px;
+background-color: #1f2937;
+padding: 130px;
+padding-top: 65px;
+}
+
+
+
+.body2 {display: flex;
+flex-direction: column;
+align-items: flex-start;
+text-align: start;
+color: white;}
+
+.text {margin-bottom: 5px;
+font-size: 18px;}
+
+.signup, .signup1 {color: white;
+background-color: #3882f6;
+border-radius: 5px;
+padding: 5px 30px;}
+
+
+.img1 {width: 500px; height: auto;
+}
+
+.title {
+
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 48px;
+  font-weight: 900;
+}
+.infos {display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: white;
+margin-bottom: 32px;}
+
+.a {flex-basis: 50px;
+
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  }
+img {height: 150px;}
+
+.title2 {
+
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.quote {background-color: #e5e7eb;
+padding: 130px;
+padding-top: 65px;
+padding-bottom: 65px;
+}
+
+.text2 {text-align: start;
+  font-size: 36px;
+  font-style: italic;}
+
+.text3 {text-align: end;
+font-weight: 900;
+font-size: 36px;
+font-style: italic;}
+
+.signup1 {border-color: white;}
+
+.sign {display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 400px;
+background-color: #3882f6;
+padding: 65px;
+padding-top: 32px;
+padding-bottom: 32px;
+margin: 130px;
+margin-top: 65px;
+margin-bottom: 65px;
+border-radius: 15px;}
+
+.sign2 {flex-direction: column;
+text-align: start;
+color: white;
+font-size: 20px;}
+
+.footer {background-color: #1f2937;
+padding: 32px;
+color: white;}
